@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-void printf_display_info()
+void print_display_info()
 {
 	Display* display = XOpenDisplay(NULL);
 	Screen*  screen = DefaultScreenOfDisplay(display);
